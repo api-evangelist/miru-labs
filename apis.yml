@@ -1,7 +1,19 @@
 aid: miru-labs
 name: Miru Labs
-description: Miru Labs is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Miru Labs is a San Francisco / Bay Area cybersecurity startup founded in 2024 by
+  Eoghan McKee, Quang Pham, and David Pigott, building a graph-native investigation and
+  insider-threat prevention platform. Miru unifies cloud and endpoint sources into a living
+  graph so human analysts and AI agents can investigate together, using behavioral
+  intelligence to distinguish malicious intent from accidental violations and an "Agentic
+  Dispatch" capability that runs autonomous investigations that triage, escalate, and
+  counter-act across alerts and domains. The platform targets cybersecurity, trust and
+  safety, and national-security investigation use cases, detecting AI leakage, data
+  exfiltration, privilege escalation, reconnaissance, and espionage, and generating
+  legal-grade case reports. The company raised a $2.7M pre-seed round led by Dreamcraft and
+  Cadenza alongside Seedcamp, with participation from Inovia, Notion, and Alphagraph. It was
+  added to the API Evangelist network as a Seedcamp portfolio lead; as of this pass Miru
+  publishes no public API, developer portal, documentation, or GitHub organization.
 url: https://raw.githubusercontent.com/api-evangelist/miru-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +21,30 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://raw.githubusercontent.com/api-evangelist/miru-labs/refs/heads/main/miru-labs.png
 tags:
 - Company
+- Cybersecurity
+- Security
+- Insider Threat
+- Investigations
+- Threat Detection
+- Agents
+- Trust and Safety
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,13 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://miru-labs.com
+  url: https://miru-labs.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/miru-labs
+- type: DomainSecurity
+  url: security/miru-labs-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
